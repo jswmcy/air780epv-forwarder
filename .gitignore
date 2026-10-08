@@ -1,0 +1,22 @@
+# 说明：仓库里的 script/config.lua 只含占位值，可以安全提交。
+# 如果你希望把"填了真实凭据"的配置彻底挡在版本库外，取消下面这行注释，
+# 并把 config.lua 复制一份为 config.example.lua 提交上去：
+# script/config.lua
+
+# Luatools 下载/编译过程产物
+*.bak
+*.tmp
+*.o
+*.elf
+*.bin
+*.pac
+out/
+build/
+*.log
+
+# 编辑器与系统
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
